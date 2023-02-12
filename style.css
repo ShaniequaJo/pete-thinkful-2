@@ -7,6 +7,66 @@ body {
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
 }
+ header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h1, nav {
+  display: inline;
+}
+
+nav a {
+  display: inline-flex;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+.cap1 {
+display: ;  
+}
+.image-circle {
+  float: left;
+  margin-left: 100px;
+}
+
+.item1{
+text-align: left;  
+}
+
+section {
+  text-align: left;
+}
+
+div.image1, .image2, .image3 {
+  vertical-align:top;
+  display:inline-block;
+  text-align: center;
+  width: 120px;
+}
+
+img {
+  width: 100px;
+  height: 100 px;
+}
+
+.caption {
+  display: block;
+}
+
+.cap2 {
+float: left;  
+text-align: center;
+padding: 14px 16px;
+}
+
+img {
+  display: block;
+}
+
 header{
   text-align: center;
 }
@@ -40,19 +100,19 @@ h4{
   text-align: center;
   
 }
-p1{
+p{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 12px;
+  font-size: 14px;
   color: #003049;
   text-align: center;
 }
-
-a:link{
+a:link{t
   color:#d62828;
 }
 a:hover{
   color:#f77f00;
 }
+
 article {
   padding: 50px 0;
 }
